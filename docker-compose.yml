@@ -1,7 +1,7 @@
 version: '3'
 services:
   x-music:
-    image: 163music:latest # 使用之前构建的镜像
+    image: x-music:latest # 使用之前构建的镜像
     ports:
       - 5000:5000  # 映射 5000 端口
     volumes:
