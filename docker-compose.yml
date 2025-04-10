@@ -1,0 +1,8 @@
+version: '3'
+services:
+  163music:
+    image: 163music:latest # 使用之前构建的镜像
+    ports:
+      - 5000:5000  # 映射 5000 端口
+    volumes:
+      - ./cookie.txt:/app/cookie.txt # 映射 cookie.txt 文件
