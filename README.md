@@ -1,4 +1,5 @@
-# 自用 Docker 版
+# 自用 Docker 版 Netease_url
+
 因为我想要调用 API 把歌曲直接下载到 NAS，小白尝试借助 AI 打包了一个Docke版，搭配苹果快捷指令可实现一键下载效果。 
 
 
